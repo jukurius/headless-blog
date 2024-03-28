@@ -1,0 +1,29 @@
+.latest_posts_wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  .large_post_container,
+  .normal_post_container {
+    & > ul {
+      list-style: none;
+      color: #fff;
+      padding: 0;
+    }
+  }
+
+  .normal_post_container {
+    display: flex;
+    flex-direction: column;
+
+    & > ul {
+      .normal_posts {
+        display: flex;
+        gap: 24px;
+      }
+    }
+  }
+
+  .large_post_container {
+    max-width: 600px;
+  }
+}

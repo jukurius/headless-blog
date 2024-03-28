@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+
+  .title_container {
+    width: 100%;
+    max-width: 1130px;
+    text-align: center;
+    h1 {
+      color: #ededed;
+      font-size: 120px;
+      margin: 10px 0;
+    }
+  }
+  .latest_posts_wrapper {
+    width: 100%;
+    max-width: 1130px;
+  }
+}
